@@ -36,7 +36,7 @@ async function checkWeather(city) {
 
     if (data_object.weather[0].main == "Clouds") {
 
-        weather_icon.src = '/img/cloudy.png';
+        weather_icon.src = './img/cloudy.png';
 
     } else if (data_object.weather[0].main == "Clear") {
 
